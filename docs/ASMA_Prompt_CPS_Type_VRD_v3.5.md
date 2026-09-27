@@ -364,9 +364,9 @@ Avant de livrer la phase 2, tu effectues et documentes dans le Fichier 1 les con
 
 | Rubrique | Valeur |
 | Code famille (taxonomie v3) | VRD — Voirie et réseaux divers (VRD) |
-| Nombre de lots (taxonomie v3) | 19, listés en B2 ; le mobilier urbain et les revêtements décoratifs sont en famille AUS |
+| Nombre de lots (taxonomie v3) | 18, listés en B2 (code VRD13 vacant depuis la taxonomie v3.2) ; le mobilier urbain et les revêtements décoratifs sont en famille AUS |
 | Rôle dans le programme | Réplication après validation du pilote (famille EVP) |
-| Version du paquet | VRD-v3.4 — points I-6 et I-7 et correction I-h ajoutés le 25/09/2026 après analyse du CPS AOO 193/2025 (VRD-v3.3 : GMTR, 24/09/2026 ; taxonomie v3.1) |
+| Version du paquet | VRD-v3.5 — décision I-8 du 27/09/2026 : couche de forme et traitement des sols intégrés au lot VRD02 (taxonomie v3.2) ; VRD-v3.4 : points I-6, I-7 et correction I-h (25/09/2026) ; VRD-v3.3 : GMTR (24/09/2026) |
 | Codes lots | Définitifs : taxonomie v3 validée le 23/09/2026 |
 
 Spécialité du rédacteur (complète la section 1) : travaux de terrassement, de chaussées, d'assainissement, de réseaux humides, de signalisation et de revêtements extérieurs, y compris les ouvrages en béton courants associés.
@@ -377,7 +377,7 @@ Spécialité du rédacteur (complète la section 1) : travaux de terrassement, d
 
 | Code lot | Lot | Contenu type |
 | VRD01 | Déblais | Déblais en terrain de toute nature, avec option terrain rocheux (paramètre {NATURE_TERRAIN} : TOUT_TERRAIN / ROCHEUX), évacuation |
-| VRD02 | Remblais et plateformes de voirie | Remblais d'apport ou de réemploi, compactage, réglage des plateformes |
+| VRD02 | Remblais, plateformes de voirie et couche de forme | Remblais d'apport ou de réemploi, compactage, réglage des plateformes ; couche de forme et, en option, traitement des sols à la chaux, au ciment ou au liant routier et géotextiles (paramètre {TRAITEMENT_SOL} : AUCUN / CHAUX / CIMENT / LIANT_ROUTIER) |
 | VRD03 | Assainissement — eaux usées | Collecteurs, branchements, regards, essais |
 | VRD04 | Assainissement — eaux pluviales | Collecteurs, caniveaux, avaloirs, rétention |
 | VRD05 | Corps de chaussée et revêtements bitumineux | Couches de fondation et de base, enrobés, enduits |
@@ -388,7 +388,6 @@ Spécialité du rédacteur (complète la section 1) : travaux de terrassement, d
 | VRD10 | Réseau d'arrosage — amont | Adduction jusqu'au point de livraison des espaces verts |
 | VRD11 | Bordures et caniveaux | Bordures, caniveaux préfabriqués et coulés en place |
 | VRD12 | Revêtements des trottoirs | Revêtements courants de trottoirs : béton, pavés, dalles, enrobés |
-| VRD13 | Couche de forme et traitement des sols | Traitement à la chaux ou au ciment, géotextiles |
 | VRD14 | Génie civil de télécommunications | Fourreaux et chambres pour opérateurs télécoms |
 | VRD15 | Ralentisseurs et dispositifs de sécurité | Ralentisseurs, îlots, potelets de sécurité |
 | VRD16 | Dispositifs de retenue | Glissières et barrières de sécurité |
@@ -396,7 +395,7 @@ Spécialité du rédacteur (complète la section 1) : travaux de terrassement, d
 | VRD18 | Réhabilitation des réseaux d'assainissement existants | Curage, inspection, chemisage, remplacement de tronçons et de regards |
 | VRD19 | Réhabilitation des réseaux d'eau potable existants | Remplacement de conduites, vannes et branchements, reprise des fuites |
 
-Liste conforme à la taxonomie v3 validée le 23/09/2026 (19 lots, codes définitifs VRD01 à VRD19).
+Liste conforme à la taxonomie v3.2 (18 lots, codes définitifs VRD01 à VRD19 ; le code VRD13 est vacant et n'est jamais réutilisé).
 
 **Exclusions par défaut**
 
@@ -452,7 +451,7 @@ Champs [À COMPLÉTER] propres à la famille : classe de trafic ; résultats gé
 
 | Famille de prix | Paramètres types (liste non limitative) |
 | Terrassements | {NATURE_SOL}, {CLASSE_SOL_GMTR}, {CLASSE_ROCHE_GMTR}, {PROF_TRANCHEE_M}, {DISTANCE_TRANSPORT_KM}, {OBJECTIF_COMPACTAGE} |
-| Couche de forme et traitement des sols | {CLASSE_ARASE}, {CLASSE_PLATEFORME}, {EP_COUCHE_FORME_CM}, {PRODUIT_TRAITEMENT}, {DOSAGE_TRAITEMENT_PCT}, {METHODE_CONTROLE_COMPACTAGE} |
+| Couche de forme et traitement des sols (lot VRD02) | {CLASSE_ARASE}, {CLASSE_PLATEFORME}, {EP_COUCHE_FORME_CM}, {TRAITEMENT_SOL}, {PRODUIT_TRAITEMENT}, {DOSAGE_TRAITEMENT_PCT}, {METHODE_CONTROLE_COMPACTAGE} ; prix de traitement rédigés seulement si {TRAITEMENT_SOL} ≠ AUCUN |
 | Assises de chaussée | {MATERIAU_ASSISE}, {EP_COUCHE_CM} |
 | Enrobés | {TYPE_ENROBE}, {EP_COUCHE_CM}, {CLASSE_BITUME} |
 | Conduites | {MATERIAU_CONDUITE}, {DIAM_NOMINAL_MM}, {CLASSE_RESISTANCE}, {PN_BAR} |
@@ -471,6 +470,7 @@ Champs [À COMPLÉTER] propres à la famille : classe de trafic ; résultats gé
 | I-5 | Paiement des enrobés au m² ou à la tonne | Deux prix distincts (au m² avec épaisseur paramétrée, et à la tonne sur pesée contradictoire), au choix du maître d'ouvrage selon le projet (option c) | Décidée le 23/09/2026 |
 | I-6 | Révision des prix d'un marché regroupant plusieurs familles | Par défaut : formule de l'arrêté 3-302-15 avec l'index de référence du mois de remise des offres et l'index du mois d'exigibilité ; une formule par famille de prix ({INDEX_REVISION_VRD}, {INDEX_REVISION_AUTRES}) quand le marché regroupe VRD, éclairage ou espaces verts. Le prompt signale toute formule aux index inversés ou à index unique | Point ouvert, à arbitrer à l'action 0.3 (constat C1 du CPS AOO 193/2025) |
 | I-7 | Délai de paiement | Paramètre {DELAI_PAIEMENT_JOURS}, jamais supérieur au plafond du texte cité à l'article « Référence aux textes généraux » ; le prompt signale toute contradiction entre le délai fixé et le texte cité | Point ouvert, avis du juriste à l'action 0.2 (constat C2 du CPS AOO 193/2025) |
+| I-8 | Couche de forme et traitement des sols : lot distinct ou intégré aux terrassements | Intégrés au lot VRD02 « Remblais, plateformes de voirie et couche de forme » : la couche de forme est la partie supérieure de la plate-forme (GMTR, catalogue des structures), et non une couche du corps de chaussée (VRD05). Traitement à la chaux, au ciment ou au liant routier en option {TRAITEMENT_SOL}. Interface : VRD02 s'arrête à la plate-forme réceptionnée (essai à la plaque) ; VRD05 commence à la couche de fondation | Décidée le 27/09/2026 (taxonomie v3.2, code VRD13 vacant) |
 
 # PARTIE C — JOURNAL DES CORRECTIONS v2 → v3 (information, sans valeur d'instruction)
 
@@ -504,3 +504,4 @@ Champs [À COMPLÉTER] propres à la famille : classe de trafic ; résultats gé
 | I-f | Codes provisoires à une lettre (I01 à I10) | Codes définitifs de la taxonomie v3 (23/09/2026) : VRD01 à VRD19 ; terrassements scindés en déblais (option terrain rocheux) et remblais ; lots de réservations et de réhabilitation des réseaux existants ; lot revêtements des trottoirs |
 | I-g | Guide marocain des terrassements routiers (GMTR) absent du référentiel alors que les sources le citent ; lot VRD13 sans base technique | GMTR ajouté en B3 (à vérifier) ; classification, classes d'arase et de plate-forme, objectifs et contrôle du compactage en B4 ; paramètres de terrassement et de couche de forme en B7 (VRD-v3.3, 24/09/2026) |
 | I-h | Écarts entre bordereau et devis descriptif dans une source ASMA récente : classe et granulométrie d'enrobé différentes, unité différente (m³ au bordereau, m² au devis), sous-prix mal numérotés, regard payé au m³, prix annoncé par une clause mais absent du bordereau | Contrôle de phase 3 : pour chaque prix, même numéro, même désignation, même unité et mêmes caractéristiques au bordereau et au devis ; toute clause qui annonce un prix renvoie à un numéro existant ; unité cohérente avec la nature de l'ouvrage (VRD-v3.4, 25/09/2026) |
+| I-i | Lot VRD13 « Couche de forme et traitement des sols » proposé comme lot indicatif, sans prix dédié dans les CPS d'ASMA et en doublon avec les remblais et plateformes | Lot fusionné dans VRD02 (décision I-8) ; paramètre {TRAITEMENT_SOL} ; code VRD13 vacant (VRD-v3.5, 27/09/2026) |

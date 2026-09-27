@@ -4,6 +4,8 @@ Cette liste recense les documents à rassembler pour la famille ECL — Éclaira
 
 Priorités : **A** = indispensable avant le lancement de la famille ECL ; **B** = utile, à rassembler si disponible. Les documents marqués « commun » servent à toutes les familles : s'ils ont déjà été collectés pour la VRD (numéros V entre parenthèses), ils ne sont pas collectés une seconde fois.
 
+**Relèvement des priorités (27/09/2026, scénario 31/12/2026).** L'Éclairage public est lancé le 25 novembre 2026 et validé le 23 décembre : la collecte doit être complète avant le lancement, pendant le pilote Espaces verts. Passent en priorité A : le BET électricité testeur et le contact chez le distributeur d'électricité (EP40, EP41), à réserver dès octobre avec une date de test métier bloquée ; le référent protection des données (EP42) ; les bordereaux adjugés et les marchés de vidéoprotection et de maintenance (EP28 à EP30), nécessaires à la base de prix lancée à la mi-décembre.
+
 > Règle de confidentialité : les bordereaux adjugés, décomptes et offres d'entreprises sont rangés dans un dossier à accès restreint. Ils ne sortent jamais du périmètre ASMA sans anonymisation.
 
 > Références réglementaires : les numéros de textes et de normes cités ci-dessous servent de point de départ. Chacun reçoit le statut « à vérifier » dans la feuille Référentiels jusqu'à sa vérification sur la source officielle (action 0.6). Le plan d'action signale en particulier que le texte réellement applicable aux installations électriques (souvent cité « RGIE ») est à établir.
@@ -40,10 +42,10 @@ Priorités : **A** = indispensable avant le lancement de la famille ECL ; **B** 
 | N° | Document | Détenteur | Prio. | Statut |
 | EP14 | Rubrique B3 du paquet Éclairage public : liste des références citées par le prompt | Chef de projet | A | ☐ |
 | EP15 | Texte réellement applicable aux installations électriques basse tension au Maroc (référence exacte du texte cité « RGIE » dans les CPS, ou texte qui le remplace) | Bulletin officiel / service juridique | A | ☐ |
-| EP16 | Liste des normes marocaines (NM) applicables : candélabres et mâts, luminaires, câbles basse tension, coffrets et armoires de commande, fourreaux et gaines, dispositifs de protection — avec numéro, intitulé et édition | Catalogue IMANOR / laboratoire | A | ☐ |
-| EP17 | Liste des NM rendues d'application obligatoire par arrêté pour le matériel électrique concerné | IMANOR / Bulletin officiel | A | ☐ |
+| EP16 | Liste des normes marocaines (NM) applicables : candélabres et mâts, luminaires, câbles basse tension, coffrets et armoires de commande, fourreaux et gaines, dispositifs de protection — avec numéro, intitulé et édition — reçu en partie le 27/09/2026 : catalogue des normes marocaines 2023 de l'IMANOR (REF-033) ; extraction de la liste propre à l'éclairage public à faire | Catalogue IMANOR / laboratoire | A | ◐ |
+| EP17 | Liste des NM rendues d'application obligatoire par arrêté pour le matériel électrique concerné — reçue le 27/09/2026 : liste des réglementations techniques et NM d'application obligatoire, mise à jour du 08/04/2024 (REF-032 : candélabres NM 01.8.353, luminaires, câbles) | IMANOR / Bulletin officiel | A | ☒ |
 | EP18 | Normes photométriques utilisées pour fixer les niveaux d'éclairement (classes d'éclairage des voies, série EN 13201 ou équivalent) : statut et édition | Catalogue IMANOR / BET | A | ☐ |
-| EP19 | Prescriptions du distributeur d'électricité : raccordement, comptage, armoires, réception et rétrocession des installations — reçu en partie le 25/09/2026 : cahier des prix électricité 2026 de la SRM Souss-Massa (prix HT, bordereau seul, enregistré comme REF-015 dans le classeur cible v0.7) ; restent les prescriptions techniques de raccordement, de réception et de rétrocession | Distributeur d'électricité | A | ◐ |
+| EP19 | Prescriptions du distributeur d'électricité : raccordement, comptage, armoires, réception et rétrocession des installations — reçu en partie le 25/09/2026 : cahier des prix électricité 2026 de la SRM Souss-Massa (prix HT, bordereau seul, enregistré comme REF-015 dans le classeur cible v0.7) ; le 27/09/2026 : cahier des prescriptions spéciales SRM-SM des travaux d'électrification des lotissements et ensembles immobiliers (SRM SM-CPS-S08-01, version 01, REF-035, accès restreint) : câbles HTA et BT, tranchées et traversées, postes HTA/BT, coffrets, mise à la terre, dossiers à fournir ; guide promoteurs SRM-SM, édition 2026 (REF-036) : dossier technique électricité, documents avant travaux, réception technique, provisoire et définitive | Distributeur d'électricité | A | ☒ |
 | EP20 | Loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, et procédures de la CNDP applicables à la vidéoprotection | Bulletin officiel / CNDP | A | ☐ |
 | EP21 | Loi n° 47-09 relative à l'efficacité énergétique et guides de l'AMEE sur l'éclairage public (LED, gradation, télégestion) | Bulletin officiel / AMEE | B | ☐ |
 | EP22 | Textes sur les énergies renouvelables, pour l'éclairage solaire autonome (loi n° 13-09 et textes d'application) | Bulletin officiel | B | ☐ |
@@ -58,9 +60,9 @@ Critères de choix : marchés récents (de préférence postérieurs au décret 
 | N° | Document | Détenteur | Prio. | Statut |
 | EP26 | 3 à 4 CPS de marchés d'éclairage public d'ASMA (voirie urbaine, places, parcs, lotissements), dossiers complets | Archives marchés / chefs de projet | A | ☐ |
 | EP27 | Bordereaux des prix — détail estimatif adjugés de ces mêmes marchés (offre de l'attributaire, telle qu'au marché signé) | Service marchés | A | ☐ |
-| EP28 | Bordereaux estimatifs du maître d'ouvrage (estimation confidentielle) des mêmes marchés | Service marchés | B | ☐ |
-| EP29 | 1 ou 2 marchés de vidéoprotection, séparés ou intégrés (CPS et bordereau) | Service marchés | B | ☐ |
-| EP30 | 1 marché de maintenance ou d'exploitation d'éclairage public, s'il existe | Service marchés | B | ☐ |
+| EP28 | Bordereaux estimatifs du maître d'ouvrage (estimation confidentielle) des mêmes marchés | Service marchés | A | ☐ |
+| EP29 | 1 ou 2 marchés de vidéoprotection, séparés ou intégrés (CPS et bordereau) | Service marchés | A | ☐ |
+| EP30 | 1 marché de maintenance ou d'exploitation d'éclairage public, s'il existe | Service marchés | A | ☐ |
 | EP31 | Avenants et ordres de service ayant créé des prix nouveaux | Chefs de projet | B | ☐ |
 | EP32 | Décomptes définitifs ou attachements (quantités réellement exécutées) | Service financier / chefs de projet | B | ☐ |
 | EP33 | 1 ou 2 CPS d'éclairage public de maîtres d'ouvrage comparables (DCE publiés), pour élargir la couverture des lots | Portail des marchés publics | B | ☐ |
@@ -74,9 +76,10 @@ Critères de choix : marchés récents (de préférence postérieurs au décret 
 
 | N° | Document | Détenteur | Prio. | Statut |
 | EP39 | Désignation du référent technique Éclairage public et de son suppléant | Direction | A | ☐ |
-| EP40 | Désignation d'un BET électricité testeur pour le test métier | Direction technique | B | ☐ |
-| EP41 | Contact de référence chez le distributeur d'électricité pour valider les prescriptions de raccordement et de réception | Direction technique | B | ☐ |
-| EP42 | Référent chargé de la protection des données pour les dossiers de vidéoprotection | Direction | B | ☐ |
+| EP40 | Désignation d'un BET électricité testeur pour le test métier | Direction technique | A | ☐ |
+| EP41 | Contact de référence chez le distributeur d'électricité pour valider les prescriptions de raccordement et de réception | Direction technique | A | ☐ |
+| EP42 | Référent chargé de la protection des données pour les dossiers de vidéoprotection | Direction | A | ☐ |
+| EP43 | Désignation du rédacteur-analyste du flux Éclairage public (phase 2) et confirmation de sa disponibilité à partir du 25/11/2026 | Direction | A | ☐ |
 
 # 3. Synthèse
 
@@ -85,8 +88,8 @@ Critères de choix : marchés récents (de préférence postérieurs au décret 
 | 0.3 — Régime juridique | 5 | 4 |
 | 0.4 — Taxonomie | 4 | 3 |
 | 0.6 — Référentiels | 12 | 7 |
-| 0.7 — Sources | 13 | 3 |
-| 0.8 — Responsables | 4 | 1 |
-| Total | 42 | 21 |
+| 0.7 — Sources | 13 | 6 |
+| 0.8 — Responsables | 5 | 5 |
+| Total | 43 | 27 |
 
 Les actions 0.2 (relecture juridique) et 0.5 (classeur cible) ne demandent pas de collecte propre à l'éclairage public : elles utilisent les documents des actions 0.3 et 0.4. Les documents marqués « commun » déjà collectés pour la VRD sont simplement rattachés au dossier de la famille ECL.

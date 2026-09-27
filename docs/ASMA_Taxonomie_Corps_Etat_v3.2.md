@@ -1,6 +1,6 @@
-# Taxonomie des corps d'état — version v3.1
+# Taxonomie des corps d'état — version v3.2
 
-Validée le 23/09/2026 : 107 lots en 13 familles. Version 3.1 du 24/09/2026 : contenus des lots EVP01, EVP03 et EVP04 élargis (transplantation des arbres, palmiers et arbustes ; abattage, dessouchage et protection des arbres conservés), sans changement de code. Codification option 1 (trigramme) : lot = code famille + 2 chiffres (exemple VRD11) ; prix = code lot + point + 3 chiffres (exemple VRD11.012). Familles REH et TRA retirées du projet actuel.
+Validée le 23/09/2026 (107 lots en 13 familles). Version 3.2 du 27/09/2026 : lot VRD13 « Couche de forme et traitement des sols » fusionné dans VRD02, renommé « Remblais, plateformes de voirie et couche de forme » ; traitement des sols en option paramétrée ; code VRD13 laissé vacant, sans renumérotation ; total 106 lots. Version 3.1 du 24/09/2026 : contenus des lots EVP01, EVP03 et EVP04 élargis (transplantation des arbres, palmiers et arbustes ; abattage, dessouchage et protection des arbres conservés), sans changement de code. Codification option 1 (trigramme) : lot = code famille + 2 chiffres (exemple VRD11) ; prix = code lot + point + 3 chiffres (exemple VRD11.012). Familles REH et TRA retirées du projet actuel.
 
 ## Synthèse
 
@@ -14,12 +14,12 @@ Validée le 23/09/2026 : 107 lots en 13 familles. Version 3.1 du 24/09/2026 : co
 | FLU | Lots techniques du bâtiment | 8 |
 | ELB | Électricité et courants faibles du bâtiment | 9 |
 | ECL | Éclairage public, électrification et vidéoprotection urbaine | 13 |
-| VRD | Voirie et réseaux divers | 19 |
+| VRD | Voirie et réseaux divers | 18 |
 | OAH | Ouvrages d'art et hydraulique | 2 |
 | EVP | Espaces verts et aménagement paysager | 14 |
 | AUS | Aménagements urbains, sports et loisirs | 7 |
 | EQS | Équipements spécifiques et constructions préfabriquées | 4 |
-| Total | | 107 |
+| Total | | 106 |
 
 ## PRE — Travaux préparatoires, démolition et dépollution
 
@@ -127,7 +127,7 @@ Validée le 23/09/2026 : 107 lots en 13 familles. Version 3.1 du 24/09/2026 : co
 | Code lot | Intitulé | Contenu type | Ancien code |
 | --- | --- | --- | --- |
 | VRD01 | Déblais | Déblais en terrain de toute nature, avec option terrain rocheux (paramètre {NATURE_TERRAIN} : TOUT_TERRAIN / ROCHEUX), évacuation | I01 |
-| VRD02 | Remblais et plateformes de voirie | Remblais d'apport ou de réemploi, compactage, réglage des plateformes | I01 |
+| VRD02 | Remblais, plateformes de voirie et couche de forme | Remblais d'apport ou de réemploi, compactage, réglage des plateformes ; couche de forme et, en option, traitement des sols à la chaux, au ciment ou au liant routier et géotextiles (paramètre {TRAITEMENT_SOL}) | I01 |
 | VRD03 | Assainissement — eaux usées | Collecteurs, branchements, regards, essais | I02 |
 | VRD04 | Assainissement — eaux pluviales | Collecteurs, caniveaux, avaloirs, rétention | I03 |
 | VRD05 | Corps de chaussée et revêtements bitumineux | Couches de fondation et de base, enrobés, enduits | I04 |
@@ -138,7 +138,6 @@ Validée le 23/09/2026 : 107 lots en 13 familles. Version 3.1 du 24/09/2026 : co
 | VRD10 | Réseau d'arrosage — amont | Adduction jusqu'au point de livraison des espaces verts | I09 |
 | VRD11 | Bordures et caniveaux | Bordures, caniveaux préfabriqués et coulés en place | I10 |
 | VRD12 | Revêtements des trottoirs | Revêtements courants de trottoirs : béton, pavés, dalles, enrobés | — |
-| VRD13 | Couche de forme et traitement des sols | Traitement à la chaux ou au ciment, géotextiles | — |
 | VRD14 | Génie civil de télécommunications | Fourreaux et chambres pour opérateurs télécoms | — |
 | VRD15 | Ralentisseurs et dispositifs de sécurité | Ralentisseurs, îlots, potelets de sécurité | — |
 | VRD16 | Dispositifs de retenue | Glissières et barrières de sécurité | — |

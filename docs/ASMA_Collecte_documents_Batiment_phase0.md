@@ -6,6 +6,8 @@ Le Bâtiment regroupe plusieurs familles de la taxonomie (gros œuvre, second œ
 
 Priorités : **A** = indispensable avant le lancement du Bâtiment ; **B** = utile, à rassembler si disponible. Les documents marqués « commun » servent à toutes les familles : s'ils ont déjà été collectés pour la VRD (numéros V entre parenthèses), ils ne sont pas collectés une seconde fois.
 
+**Relèvement des priorités (27/09/2026, scénario 31/12/2026).** Le Bâtiment est lancé le 25 novembre 2026 en deux flux (gros œuvre et second œuvre d'une part, lots techniques d'autre part) et validé le 23 décembre : la collecte doit être complète avant le lancement, pendant le pilote Espaces verts. Passent en priorité A : les deux BET ou architectes testeurs, un par flux (BT40), et le contact chez un bureau de contrôle (BT41), à réserver dès octobre avec une date de test métier bloquée ; les bordereaux adjugés et les avenants créant des prix nouveaux (BT29, BT30), nécessaires à la base de prix lancée à la mi-décembre ; la décision sur l'ordre de traitement des familles (BT13), qui détermine la répartition entre les deux flux.
+
 > Règle de confidentialité : les bordereaux adjugés, décomptes et offres d'entreprises sont rangés dans un dossier à accès restreint. Ils ne sortent jamais du périmètre ASMA sans anonymisation.
 
 > Références réglementaires : les numéros de textes et de normes cités ci-dessous servent de point de départ. Chacun reçoit le statut « à vérifier » dans la feuille Référentiels jusqu'à sa vérification sur la source officielle (action 0.6).
@@ -35,7 +37,7 @@ Priorités : **A** = indispensable avant le lancement du Bâtiment ; **B** = uti
 | BT10 | Taxonomie des corps d'état v3 validée le 23/09/2026 (Taxonomie_Corps_Etat_v3_validee.xlsx), familles du Bâtiment : TER, GOS, ENV, SOF, FLU, ELB (44 lots) | Chef de projet | A | ☒ |
 | BT11 | Décision sur la liste exacte des familles couvertes par le prompt Bâtiment : le plan d'action cite « B à G » dans un tableau et « C à G » dans un autre | Direction technique / chef de projet | A | ☐ |
 | BT12 | Liste des lots de bâtiment effectivement passés par ASMA ces 5 dernières années (intitulés des marchés et des lots) | Service marchés | A | ☐ |
-| BT13 | Décision sur l'ordre de traitement des familles du Bâtiment ({FAMILLES_TRAITEES}) | Direction technique | B | ☐ |
+| BT13 | Décision sur l'ordre de traitement des familles du Bâtiment ({FAMILLES_TRAITEES}) | Direction technique | A | ☐ |
 
 ## Action 0.6 — Référentiels des familles du Bâtiment
 
@@ -61,8 +63,8 @@ Critères de choix : marchés récents (de préférence postérieurs au décret 
 | BT26 | 3 à 4 CPS de marchés de bâtiment d'ASMA (équipements publics, locaux d'activité), dossiers complets, en lots séparés ou en entreprise générale | Archives marchés / chefs de projet | A | ☐ |
 | BT27 | Bordereaux des prix — détail estimatif adjugés de ces mêmes marchés, pour chaque lot (offre de l'attributaire, telle qu'au marché signé) | Service marchés | A | ☐ |
 | BT28 | Tableau de couverture : pour chaque famille du Bâtiment, les CPS et bordereaux qui la couvrent, et les familles encore sans source | Chef de projet | A | ☐ |
-| BT29 | Bordereaux estimatifs du maître d'ouvrage (estimation confidentielle) des mêmes marchés | Service marchés | B | ☐ |
-| BT30 | Avenants et ordres de service ayant créé des prix nouveaux | Chefs de projet | B | ☐ |
+| BT29 | Bordereaux estimatifs du maître d'ouvrage (estimation confidentielle) des mêmes marchés | Service marchés | A | ☐ |
+| BT30 | Avenants et ordres de service ayant créé des prix nouveaux | Chefs de projet | A | ☐ |
 | BT31 | Décomptes définitifs ou attachements (quantités réellement exécutées) | Service financier / chefs de projet | B | ☐ |
 | BT32 | 1 ou 2 CPS de bâtiment de maîtres d'ouvrage comparables (DCE publiés), pour les familles mal couvertes | Portail des marchés publics | B | ☐ |
 | BT33 | Plans et détails types : coupes de murs et de planchers, étanchéité des toitures, menuiseries, carnets de détails des lots techniques | Architectes / BET | B | ☐ |
@@ -76,18 +78,19 @@ Critères de choix : marchés récents (de préférence postérieurs au décret 
 
 | N° | Document | Détenteur | Prio. | Statut |
 | BT39 | Désignation des référents techniques du Bâtiment (au moins un pour le gros œuvre et le second œuvre, un pour les lots techniques) et de leurs suppléants | Direction | A | ☐ |
-| BT40 | Désignation d'un BET ou d'un architecte testeur pour le test métier | Direction technique | B | ☐ |
-| BT41 | Contact de référence chez un bureau de contrôle pour relire les prescriptions de contrôle et d'essais | Direction technique | B | ☐ |
+| BT40 | Désignation d'un BET ou d'un architecte testeur pour le test métier | Direction technique | A | ☐ |
+| BT41 | Contact de référence chez un bureau de contrôle pour relire les prescriptions de contrôle et d'essais | Direction technique | A | ☐ |
+| BT42 | Désignation des deux rédacteurs-analystes du Bâtiment (flux gros œuvre et second œuvre, flux lots techniques) et confirmation de leur disponibilité à partir du 25/11/2026 | Direction | A | ☐ |
 
 # 3. Synthèse
 
 | Action | Documents | Dont priorité A |
-| 0.1 — Décisions | 4 | 2 |
+| 0.1 — Décisions | 4 | 3 |
 | 0.3 — Régime juridique | 5 | 4 |
 | 0.4 — Taxonomie | 4 | 3 |
 | 0.6 — Référentiels | 12 | 8 |
-| 0.7 — Sources | 13 | 4 |
-| 0.8 — Responsables | 3 | 1 |
-| Total | 41 | 22 |
+| 0.7 — Sources | 13 | 6 |
+| 0.8 — Responsables | 4 | 4 |
+| Total | 42 | 27 |
 
 Les actions 0.2 (relecture juridique) et 0.5 (classeur cible) ne demandent pas de collecte propre au Bâtiment : elles utilisent les documents des actions 0.3 et 0.4. Les documents marqués « commun » déjà collectés pour la VRD sont simplement rattachés au dossier du Bâtiment.
