@@ -552,7 +552,7 @@ function headerHTML(){
    '<section class="hero"><h1>Standardisation des DCE<span>CPS types et catalogues de prix par corps d’état</span></h1>'+
    '<p class="lede">Doter ASMA d’un référentiel DCE interne : pour chaque lot, un CPS type et un catalogue de prix paramétrés que les bureaux d’études n’ont qu’à renseigner, puis une base de prix actualisée à partir des marchés adjugés. Chaque phase ne démarre qu’après validation de la précédente.</p>'+
    '<p class="stamp">'+(upd?'État du projet au '+longDate(upd).toLowerCase()+'. ':'')+(D.SYNCED?'Page actualisée automatiquement, dernière synchronisation le '+fmt(D.SYNCED)+' à '+new Date(D.SYNCED).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})+'.':'')+'</p>'+
-   '<div class="plannote"><p><b>Pour comprendre ce suivi</b>, lisez d’abord le plan d’action : objectif, quatre phases, portes de validation et indicateurs.</p><div class="btns"><button class="btn" data-read="plan">Lire le plan d’action</button>'+dlBtn("plan","pdf","PDF")+''+dlBtn("plan","docx","Word")+'</div></div></section>';
+   '<div class="plannote"><p><b>Pour comprendre cet outil</b>, consultez d’abord le plan d’action : il explique l’objectif, les quatre phases, leurs portes de validation et les indicateurs que cet outil suit.</p><div class="btns"><button class="btn" data-read="plan">Lire le plan d’action</button>'+dlBtn("plan","pdf","PDF")+''+dlBtn("plan","docx","Word")+'</div></div></section>';
   h+=trackHTML();
   if(le)h+='<div class="latest"><b>Dernière avancée, '+fmt(le.date)+'</b><span>'+esc(le.text)+'</span><button class="btn ghost" data-tab="journal">Journal</button></div>';
   return h;
